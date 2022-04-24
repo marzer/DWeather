@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*                  text=auto                encoding=UTF-8
+*.uc               text         eol=lf      encoding=UTF-8
+*.ucl              text         eol=lf      encoding=UTF-8
+*.md               text         eol=lf      encoding=UTF-8
+
+*.u                binary
+*.utx              binary
+*.usx              binary
+*.ut2              binary
